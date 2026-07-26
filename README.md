@@ -112,7 +112,7 @@ Soil Sensors → Feature Engineering → XGBoost Model → Top-N Crop Ranking
 -  pH/EC soil correction using FAO-approved treatment methods
 
 <details>
-<summary><b>📈 Training Results (Click to Expand)</b></summary>
+<summary><b> Training Results (Click to Expand)</b></summary>
 <br>
 
 | Metric | Value |
