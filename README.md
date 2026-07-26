@@ -19,8 +19,7 @@
 
 <br>
 
-[Features](#-features) · [Architecture](#-system-architecture) · [AI Pipeline](#-ai-pipeline) · [Results](#-results) · [Live Demo](#-live-demo) · [Setup](#-setup) · [Team](#-team)
-
+[Features](#-features) · [Architecture](#-system-architecture) · [AI Pipeline](#-ai-pipeline) · [Results](#-results) · [Live Demo](#-live-demo) · [Setup](#-setup) 
 ---
 
 </div>
