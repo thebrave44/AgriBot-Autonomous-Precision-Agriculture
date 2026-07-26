@@ -171,33 +171,27 @@ Camera Frame → YOLOv26s Inference → Bounding Boxes
 
 | Metric | Value |
 |--------|-------|
-| mAP50 | **92.84%** |
-| mAP50-95 | **68.63%** |
-| Precision | **90.6%** |
-| Recall | **87.3%** |
-| Training Epochs | 500 |
-| Dataset Size | 43,000+ images |
-| Model | YOLOv26s |
-| Edge Format | ONNX (Raspberry Pi 5) |
+| Validation Accuracy | **98.4%** |
+| Number of Crops | 13 Egyptian crops |
+| Dataset Size | 1,300 samples |
+| Features | EC, pH, Temperature, Humidity |
+| Training Epochs | 120 boosting rounds |
+| Model Size | < 1 MB |
 
-**Training Metrics (mAP, Precision, Recall):**
+**Training & Validation Accuracy:**
 
-![YOLOv26s Training](assets/yolo_training.png)
+<!-- Replace with your actual image path when pushing to GitHub -->
+![Training Accuracy](assets/training_accuracy.png)
 
 **Training & Validation Loss:**
 
-![YOLOv26s Loss](assets/yolo_loss.png)
+![Training Loss](assets/training_loss.png)
 
-**Detection Examples:**
+**Per-Crop Test Accuracy:**
 
-![Detection Examples](assets/yolo_detections.jpg)
-
-**Inference Benchmark (Raspberry Pi 5):**
-
-![Inference Benchmark](assets/inference_benchmark.png)
+![Per-Crop Accuracy](assets/per_crop_accuracy.png)
 
 </details>
-
 ---
 
 ### Module 3: Autonomous Replanting Pipeline
