@@ -161,33 +161,35 @@ Camera Frame → YOLOv26s Inference → Bounding Boxes
 -  **ONNX export** for Raspberry Pi 5 edge deployment
 -  Live demo deployed on **Hugging Face Spaces**
 
-<details>
-<summary><b> Training Results (Click to Expand)</b></summary>
 <br>
 
 | Metric | Value |
 |--------|-------|
-| Validation Accuracy | **98.4%** |
-| Number of Crops | 13 Egyptian crops |
-| Dataset Size | 1,300 samples |
-| Features | EC, pH, Temperature, Humidity |
-| Training Epochs | 120 boosting rounds |
-| Model Size | < 1 MB |
+| mAP50 | **92.84%** |
+| mAP50-95 | **68.63%** |
+| Precision | **90.6%** |
+| Recall | **87.3%** |
+| Training Epochs | 500 |
+| Dataset Size | 43,000+ images |
+| Model | YOLOv26s |
+| Edge Format | ONNX (Raspberry Pi 5) |
 
-**Training & Validation Accuracy:**
+**Training Metrics (mAP, Precision, Recall):**
 
-<!-- Replace with your actual image path when pushing to GitHub -->
-![Training Accuracy](assets/training_accuracy.png)
+![YOLOv26s Training](assets/yolo_training.png)
 
 **Training & Validation Loss:**
 
-![Training Loss](assets/training_loss.png)
+![YOLOv26s Loss](assets/yolo_loss.png)
 
-**Per-Crop Test Accuracy:**
+**Detection Examples:**
 
-![Per-Crop Accuracy](assets/per_crop_accuracy.png)
+![Detection Examples](assets/yolo_detections.jpg)
 
-</details>
+**Inference Benchmark (Raspberry Pi 5):**
+
+![Inference Benchmark](assets/inference_benchmark.png)
+
 ---
 
 ### Module 3: Autonomous Replanting Pipeline
