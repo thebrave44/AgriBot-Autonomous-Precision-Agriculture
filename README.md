@@ -19,6 +19,10 @@
 
 <br>
 
+<img src="assets/robot_final.jpg" alt="AgriBot Final Autonomous Robot Prototype" width="600" style="border-radius: 10px;">
+
+<br>
+
 [Features](#-features) · [Architecture](#-system-architecture) · [AI Pipeline](#-ai-pipeline) · [Results](#-results) · [Live Demo](#-live-demo) · [Setup](#-setup) 
 ---
 
