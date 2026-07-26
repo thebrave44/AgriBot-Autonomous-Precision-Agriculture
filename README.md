@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![YOLOv26s](https://img.shields.io/badge/YOLOv26s-Plant_Detection-FF6F00?style=for-the-badge)](.)
 [![XGBoost](https://img.shields.io/badge/XGBoost-98.4%25_Accuracy-189FDD?style=for-the-badge)](.)
-[![Hugging Face](https://img.shields.io/badge/🤗_Live_Demo-Hugging_Face-FFD21E?style=for-the-badge)](https://huggingface.co/spaces/thebrave44/plant-detection)
+[![Hugging Face](https://img.shields.io/badge/🤗_Live_Demo-Hugging_Face-FFD21E?style=for-the-badge)](https://huggingface.co/spaces/Mintis/Plant-Detection-App)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 <br>
@@ -42,7 +42,7 @@ All powered by **solar energy** for sustainable, off-grid field operation.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---------|-------------|
@@ -57,34 +57,34 @@ All powered by **solar energy** for sustainable, off-grid field operation.
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
 │                    AUTONOMOUS AGRICULTURE ROBOT                      │
 │                                                                      │
 │  ┌─────────────┐    ┌──────────────┐    ┌─────────────────────────┐  │
-│  │  SENSOR      │    │  AI ENGINE   │    │  ACTUATION SYSTEM       │  │
-│  │  MODULE      │───▶│              │───▶│                         │  │
-│  │             │    │  ┌──────────┐ │    │  • Seed Dispenser       │  │
-│  │  • pH       │    │  │ XGBoost  │ │    │  • GPS Navigation       │  │
-│  │  • EC       │    │  │ Crop Rec │ │    │  • Motor Controllers    │  │
-│  │  • Temp     │    │  └──────────┘ │    │  • Planting Mechanism   │  │
-│  │  • Humidity │    │  ┌──────────┐ │    │                         │  │
-│  │  • NPK      │    │  │ YOLOv26s │ │    └─────────────────────────┘  │
+│  │  SENSOR      │    │  AI ENGINE   │    │  ACTUATION SYSTEM      │  │
+│  │  MODULE      │───▶│              │───▶│                       │  │
+│  │             │    │  ┌──────────┐ │    │  • Seed Dispenser      │  │
+│  │  • pH       │    │  │ XGBoost  │ │    │  • GPS Navigation      │  │
+│  │  • EC       │    │  │ Crop Rec │ │    │  • Motor Controllers   │  │
+│  │  • Temp     │    │  └──────────┘ │    │  • Planting Mechanism  │  │
+│  │  • Humidity │    │  ┌──────────┐ │    │                        │  │
+│  │  • NPK      │    │  │ YOLOv26s │ │    └────────────────────────┘  │
 │  │             │    │  │ Plant    │ │                                 │
 │  └─────────────┘    │  │ Detect   │ │    ┌─────────────────────────┐  │
-│                      │  └──────────┘ │    │  POWER SYSTEM           │  │
+│                     │  └──────────┘│     │  POWER SYSTEM           │  │
 │  ┌─────────────┐    │  ┌──────────┐ │    │                         │  │
-│  │  CAMERA     │───▶│  │Replanting│ │    │  ☀️ Solar Panel         │  │
-│  │  MODULE     │    │  │ Logic    │ │    │  🔋 Battery Bank        │  │
-│  └─────────────┘    │  └──────────┘ │    │  ⚡ Charge Controller   │  │
-│                      └──────────────┘    └─────────────────────────┘  │
-│                                                                      │
+│  │  CAMERA     │──▶│  │Replanting│ │    │   Solar Panel            │  │
+│  │  MODULE     │    │  │ Logic    │ │    │   Battery               │  │
+│  └─────────────┘    │  └──────────┘ │    │   Charge Controller     │  │
+│                     └───────────────┘    └─────────────────────────┘  │
+│                                                                       │
 │  ┌──────────────────────────────────────────────────────────────────┐ │
-│  │  COMMUNICATION: ESP32 (Wi-Fi) ←→ Raspberry Pi 5 ←→ Web Dashboard│ │
+│  │  COMMUNICATION: ESP32 (Wi-Fi) ←→ Raspberry Pi 5 ←→ Web Dashboard│  │
 │  └──────────────────────────────────────────────────────────────────┘ │
-└──────────────────────────────────────────────────────────────────────┘
+└───────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -163,7 +163,7 @@ Camera Frame → YOLOv26s Inference → Bounding Boxes
 -  Live demo deployed on **Hugging Face Spaces**
 
 <details>
-<summary><b>📈 Training Results (Click to Expand)</b></summary>
+<summary><b> Training Results (Click to Expand)</b></summary>
 <br>
 
 | Metric | Value |
@@ -225,7 +225,7 @@ Timer Expires → Camera Scan → YOLOv26s Analysis
 
 ---
 
-## 📊 Results
+##  Results
 
 <div align="center">
 
@@ -238,7 +238,7 @@ Timer Expires → Camera Scan → YOLOv26s Analysis
 |  Plant Detection | Dataset Size | **43,000+ images** |
 |  Plant Detection | Training Duration | **500 epochs** |
 |  Edge Deployment | Inference (ONNX, RPi5) | **~350ms/image** |
-|  Power System | Energy Source | **100% Solar** |
+|  Power System | Energy Source | **solar charging the battery** |
 
 </div>
 
@@ -248,7 +248,7 @@ Timer Expires → Camera Scan → YOLOv26s Analysis
 
 Try the plant detection model right in your browser — no installation needed!
 
-** [Launch on Hugging Face Spaces](https://huggingface.co/spaces/thebrave44/plant-detection)**
+** [Launch on Hugging Face Spaces](https://huggingface.co/spaces/Mintis/Plant-Detection-App)**
 
 Upload a photo of a plant or use your webcam. The model will detect seedlings and empty planting slots in real-time.
 
@@ -287,21 +287,21 @@ python webcam_detect.py --camera 0
 
 ```
 AgriBot/
-├── 🧠 ai-engine/
+├──  ai-engine/
 │   ├── crop_recommendation_system.py   # Full recommendation pipeline (667 lines)
 │   ├── egypt_crop_database.py          # Localized Egyptian crop database
 │   ├── egypt_crop_model_v5.json        # Trained XGBoost model
 │   ├── label_encoder.pkl               # Label encoder for crop classes
 │   └── dashboard.py                    # Web-based monitoring dashboard
 │
-├── 👁️ vision/
+├──  vision/
 │   ├── train.py                        # YOLOv26s training script
 │   ├── detect.py                       # Inference script
 │   ├── webcam_detect.py                # Live webcam detection
 │   └── best.onnx                       # Exported ONNX model
 │
-├── 📊 assets/                          # Charts, training curves, screenshots
-├── 📄 docs/                            # Technical documentation
+├──  assets/                          # Charts, training curves, screenshots
+├──  docs/                            # Technical documentation
 └── README.md
 ```
 
