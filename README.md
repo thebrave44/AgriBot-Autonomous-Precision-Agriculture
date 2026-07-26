@@ -115,8 +115,6 @@ Soil Sensors → Feature Engineering → XGBoost Model → Top-N Crop Ranking
 -  Full **fertilization prescriptions** per crop per growth stage (Seedling → Maturity)
 -  pH/EC soil correction using FAO-approved treatment methods
 
-<details>
-<summary><b> Training Results (Click to Expand)</b></summary>
 <br>
 
 | Metric | Value |
@@ -130,7 +128,6 @@ Soil Sensors → Feature Engineering → XGBoost Model → Top-N Crop Ranking
 
 **Training & Validation Accuracy:**
 
-<!-- Replace with your actual image path when pushing to GitHub -->
 ![Training Accuracy](assets/training_accuracy.png)
 
 **Training & Validation Loss:**
@@ -141,7 +138,6 @@ Soil Sensors → Feature Engineering → XGBoost Model → Top-N Crop Ranking
 
 ![Per-Crop Accuracy](assets/per_crop_accuracy.png)
 
-</details>
 
 ---
 
